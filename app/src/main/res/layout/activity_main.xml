@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+
     android:orientation="vertical"
     tools:context="android.juntillak.androidthreebuttons.MainActivity">
 
@@ -18,12 +15,13 @@
             android:id="@+id/circle1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:clickable="true"
             android:layout_weight="1"
             android:gravity="center"
             android:text="
 
-X
+1
 
 "
             android:textSize="40sp"/>
@@ -32,7 +30,7 @@ X
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
 
@@ -41,16 +39,17 @@ X
             android:id="@+id/circle2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="2"
             android:textSize="40sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
         <TextView
@@ -58,35 +57,37 @@ X
             android:id="@+id/circle3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="3"
             android:textSize="40sp"/>
 
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000000"
         android:text="
-                                                                                                                                                         "/>
+        "/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TextView
-            android:onClick="circleChange1"
+            android:onClick="circleChange4"
             android:id="@+id/circle4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:clickable="true"
             android:layout_weight="1"
             android:gravity="center"
             android:text="
 
-X
+4
 
 "
             android:textSize="40sp"/>
@@ -95,61 +96,64 @@ X
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
 
         <TextView
-            android:onClick="circleChange2"
+            android:onClick="circleChange5"
             android:id="@+id/circle5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="5"
             android:textSize="40sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
         <TextView
-            android:onClick="circleChange3"
+            android:onClick="circleChange6"
             android:id="@+id/circle6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="6"
             android:textSize="40sp"/>
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000000"
         android:text="
-                                                                                                                                                         "/>
+"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TextView
-            android:onClick="circleChange1"
+            android:onClick="circleChange7"
             android:id="@+id/circle7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="true"
+            android:typeface="monospace"
             android:layout_weight="1"
             android:gravity="center"
             android:text="
 
-X
+7
 
 "
             android:textSize="40sp"/>
@@ -158,36 +162,38 @@ X
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
 
         <TextView
-            android:onClick="circleChange2"
+            android:onClick="circleChange8"
             android:id="@+id/circle8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="8"
             android:textSize="40sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="     "
+            android:text="       "
             android:background="#000000"/>
 
         <TextView
-            android:onClick="circleChange3"
+            android:onClick="circleChange9"
             android:id="@+id/circle9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:typeface="monospace"
             android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:text="X"
+            android:text="9"
             android:textSize="40sp"/>
     </LinearLayout>
 
